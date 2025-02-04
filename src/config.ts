@@ -8,6 +8,5 @@ export let PROXIES: Proxy[] = [
     {
         domain: "googlev.twx.best",
         url: "https://google.com/",
-        enable: true
-    }
+     }
 ];
