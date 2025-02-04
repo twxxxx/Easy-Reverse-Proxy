@@ -1,13 +1,13 @@
-import {Proxy} from './util/model';
+import type {Proxy} from './util/model';
 
-export let PORT = 370; // 端口
+export let PORT = 377; // 端口
 
-export let PROXY_CODE_SECRET = 'Easy-Reverse-Proxy' // 代理码密钥
+export let PROXY_CODE_SECRET = 'Easy-Reverse-Proxy'; // 代理码密钥
 // 代理
-export let PROXYS: Proxy[] = [ 
-  {
-        domain: "googlev.twx.best",
-        url: "https://www.google.com/",
+export let PROXIES: Proxy[] = [
+    {
+        domain: "www.example.com",
+        url: "https://github.com/",
         enable: true
     }
 ];
